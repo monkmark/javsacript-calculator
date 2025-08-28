@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.body {
+    background-color: var(--background);
+    color: var(--font);
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    min-height: 500px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.calculator {
+    width: 400px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #aaa;
+}
+
+.btn-screen {
+    padding: 10px 20px;
+    border: 2px #333 solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    text-align: right;
+    word-wrap: break-word; 
+    word-break: break-all;
+}
+
+.prev-screen {
+    min-height: 32px;
+    font-size: 20px;
+}
+
+.current-screen {
+    min-height: 64px;
+    font-size: 40px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+.btn {
+    padding: 20px;
+    border: 2px #333 solid;
+    border-radius: 5px;
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.btn-red {
+    background-color: #faa;
+}
+
+.btn-blue {
+    background-color: #aaf;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
